@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
-import logoLoop from '/Users/siminghuang/.gemini/antigravity/brain/f7e4c6c5-ad34-483a-99ff-95c0ccfa41cf/media__1778632029561.png';
-import logoText from '/Users/siminghuang/.gemini/antigravity/brain/f7e4c6c5-ad34-483a-99ff-95c0ccfa41cf/media__1778632436933.png';
+import logoLoop from '../assets/logo-loop.png';
+import logoText from '../assets/logo-text.png';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
