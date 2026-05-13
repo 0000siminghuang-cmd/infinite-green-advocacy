@@ -9,8 +9,8 @@ const srcDir = '/Users/siminghuang/.gemini/antigravity/brain/f7e4c6c5-ad34-483a-
 const destDir = path.resolve(__dirname, 'src/assets')
 if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true })
 try {
-  fs.copyFileSync(`${srcDir}/media__1778632029561.png`, `${destDir}/logo-loop.png`)
-  fs.copyFileSync(`${srcDir}/media__1778632436933.png`, `${destDir}/logo-text.png`)
+  fs.copyFileSync(`${srcDir}/media__1778700152478.png`, `${destDir}/logo-loop.png`)
+  fs.copyFileSync(`${srcDir}/media__1778700161358.png`, `${destDir}/logo-text.png`)
 } catch (e) {}
 
 // https://vitejs.dev/config/
